@@ -21,6 +21,6 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('clinical:no-select-everything');
+  api.use('photonic:no-select-everything');
   api.addFiles('no-select-everything-tests.js');
 });

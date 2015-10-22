@@ -1,6 +1,6 @@
 Package.describe({
   name: 'photonic:no-select-everything',
-  version: '0.0.1',
+  version: '0.1.0',
   // Brief, one-line summary of the package.
   summary: 'photonic:no-select-everything',
   // URL to the Git repository containing the source code for this package.
@@ -11,15 +11,14 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.2.0.2');
-  api.use('ecmascript');
+  api.versionsFrom('1.1.0.2');
+
   api.use('meteor-platform');
-  api.use('less');
+  api.use('grove:less');
   api.addFiles('no-select-everything.less');
 });
 
 Package.onTest(function (api) {
-  api.use('ecmascript');
   api.use('tinytest');
   api.use('photonic:no-select-everything');
   api.addFiles('no-select-everything-tests.js');

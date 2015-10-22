@@ -14,7 +14,7 @@ Package.onUse(function (api) {
   api.versionsFrom('1.1.0.2');
 
   api.use('meteor-platform');
-  api.use('grove:less');
+  api.use('grove:less@0.1.1');
   api.addFiles('no-select-everything.less');
 });
 

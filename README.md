@@ -10,6 +10,10 @@ meteor add photonic:no-select-everything
 ````
 
 
+### Known Bugs
+
+There are some incompatibilities with inputs on mobile devices.  Pull requests accepted if you can figure out the proper css scoping to get inputs working.
+
 ### Licensing
 
 MIT License.  Use as you will.
